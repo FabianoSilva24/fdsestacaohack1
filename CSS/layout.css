@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+
+h1{
+    color:black;
+    font-family: sans-serif;
+
+}
+
+header{
+    text-align: center;
+}
+
+nav{
+    height: 50px;
+    background-color:rgb(9, 124, 139);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#botoes{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+/* aqui são formatados os links de cima */
+.linkdecima{
+    color: white;
+    text-decoration: none;
+    font-size: 16pt;
+    text-transform: uppercase;
+}
+
+button{
+    background-color: darkgray;
+    border: 1 px, solid, black;
+}
+
+
+img{
+    height: 300px;
+    width: 300px;
+}
+
+footer{
+    height: 50px;
+    background-color: rgb(9, 124, 139);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    bottom: 0;    
+}
+
+#primeiro{
+    margin-left: 30px;
+}
+
+.linkdebaixo{
+    color:white;
+    text-decoration: none;
+    font-size: 16pt;
+    text-transform: uppercase;
+}
+
+#donate{
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+section{
+    display: flex;
+}
+
+#onibus{
+    height: 45px;
+    width: 45px;
+    left: 50px;
+    position: absolute;
+}
